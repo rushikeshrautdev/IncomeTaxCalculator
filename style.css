@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: bisque;
+
+}
+
+.taxcalculator{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#income{
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: 2px solid green;
+    outline: none;
+    color: green;
+}
+
+button{
+   
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: tomato;
+    width: fit-content;
+    padding: 7px 13px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+
+
